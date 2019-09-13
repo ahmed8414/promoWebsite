@@ -1,0 +1,23 @@
+/*  Everything in here is a COMMENT CODE */
+
+body
+{
+    /*background-color: antiquewhite;*/
+    background-image: url("img/ramen noodle.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+;
+}
+
+h4
+{
+    color: indigo;
+}
+/* Style a specific section of the page that has an ID= using the hashtag # */
+#textEnhance
+{
+    color: darkblue;
+    background-image: linear-gradient(lightgoldenrodyellow, lightskyblue,darkviolet);
+
+}
