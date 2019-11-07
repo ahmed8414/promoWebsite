@@ -1,0 +1,45 @@
+body {
+    background-image: url("img/watercolor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h4 {
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+    text-shadow: 3px 1px lavenderblush;
+}
+
+
+ul{
+    border: 1px solid black;
+    list-style-type: none;
+    margin: 0 10px;
+    Padding: 0px;
+    width: 200px;
+    background-image: url("img/lights image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+li{
+    display: inline-block;
+    border-bottom: 1px solid black
+}
+li a{
+    display: block;
+    color: deeppink;
+    padding: 60px 16px;
+    text-decoration: none;
+}
+
+/* Change link color to black on hover */
+li a:hover {
+    background-color: lightskyblue;
+    color: deeppink;
+}
+.Active {
+    background-color: lightskyblue;
+    color: deeppink;
+}

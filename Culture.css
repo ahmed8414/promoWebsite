@@ -1,0 +1,46 @@
+body {
+    background-image: url("img/fall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+td {
+    font-family: "Trebuchet MS";
+    font-size: 17px;
+    text-shadow: 1px 0.5px darkred;
+}
+
+
+ul{
+    border: 1px solid black;
+    list-style-type: none;
+    margin: 0 10px;
+    Padding: 0px;
+    width: 200px;
+    background-image: linear-gradient(coral, lightcoral,white,lightcoral,yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+li{
+    display: inline-block;
+    border-bottom: 1px solid black
+}
+li a{
+    display: block;
+    color: black;
+    padding: 60px 16px;
+    text-decoration: none;
+}
+
+/* Change link color to black on hover */
+li a:hover {
+    background-color: lightskyblue;
+    color: black;
+}
+.Active {
+    background-color: lightskyblue;
+    color: black;
+}
+
